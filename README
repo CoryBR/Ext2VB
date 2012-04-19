@@ -1,11 +1,7 @@
-This is an Ext2 file system library I wrote using VB.net and C# back in 2007-2008.
-It was originally meant to run under MacFuse, so the code should work properly in Mono.
+This is an Ext2 file system library I wrote using VB.net and C# back in 2007-2008. It was originally meant to run under MacFuse, so the code should work properly in Mono.
 
-No guarantees are made that this code will work. It was intended as a Christmas break project,
-and hasn't been updated since.
+No guarantees are made that this code will work. It was intended as a Christmas break project, and hasn't been updated since.
 
-This code will not read an Ext4 FS with any new features which changed the disk format, such
-as extents. It ignores all feature flags, so just because it can open a file system doesn't
-mean you'll get any meaningful data out.
+This code will not read an Ext4 FS with any new features which changed the disk format, such as extents. It ignores all feature flags, so just because it can open a file system doesn't mean you'll get any meaningful data out.
 
 Cory Bryan
